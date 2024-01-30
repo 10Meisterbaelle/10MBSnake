@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 821590180864727835}
   - component: {fileID: 1112144229531848435}
   - component: {fileID: 6856762454168699286}
-  - component: {fileID: 2225413313926245257}
+  - component: {fileID: 7670122256922217971}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snake: {fileID: 0}
---- !u!114 &2225413313926245257
+--- !u!114 &7670122256922217971
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,10 +108,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6592895421448254843}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Script: {fileID: 11500000, guid: 3abf6a390194d432d868d2fb47249a61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"id","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
