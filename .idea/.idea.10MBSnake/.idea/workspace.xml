@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd861a22-3a35-4dbb-97d5-b512708c035f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LogicScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LogicScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SnakeMetadata.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SnakeMetadata.cs.meta" afterDir="false" />
+    <list default="true" id="dd861a22-3a35-4dbb-97d5-b512708c035f" name="Changes" comment="Small optimizations">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Food.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Food.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FoodSpawnScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FoodSpawnScript.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.10MBSnake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.10MBSnake/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Square.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Square.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SnakeScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SnakeScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SquareMetadata.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SquareMetadata.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SquareScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SquareScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +21,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/LogicScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SnakeScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SnakeMetadata.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Test/Assets/BirdScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Test/Assets/LogicScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Test/Assets/PipeMiddleScript.cs" root0="SKIP_HIGHLIGHTING" />
@@ -123,6 +117,7 @@
       <workItem from="1706527938598" duration="1587000" />
       <workItem from="1706598338874" duration="1329000" />
       <workItem from="1706599685226" duration="3171000" />
+      <workItem from="1706703416367" duration="1100000" />
     </task>
     <task id="LOCAL-00001" summary="Make camera background black">
       <option name="closed" value="true" />
@@ -172,7 +167,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706598387895</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added a basic (working) snake">
+      <option name="closed" value="true" />
+      <created>1706703687897</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706703687897</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Small optimizations">
+      <option name="closed" value="true" />
+      <created>1706703855113</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706703855113</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +211,8 @@
     <MESSAGE value="Make camera square" />
     <MESSAGE value="Add Rider config file" />
     <MESSAGE value="Added snake blocks (unfinished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added snake blocks (unfinished" />
+    <MESSAGE value="Added a basic (working) snake" />
+    <MESSAGE value="Small optimizations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small optimizations" />
   </component>
 </project>
