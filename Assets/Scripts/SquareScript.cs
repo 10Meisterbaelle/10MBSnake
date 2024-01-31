@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SquareScript : MonoBehaviour
@@ -23,7 +20,7 @@ public class SquareScript : MonoBehaviour
     void Update()
     {
         // Debug.Log(_snakeMetadata.squares);
-        
+
         if (_snakeMetadata.squares.IndexOf(gameObject) == 0)
         {
             _timer += Time.deltaTime;
@@ -34,9 +31,11 @@ public class SquareScript : MonoBehaviour
             else
             {
                 _snakeScript.UpdateAll();
-                int x = Mathf.RoundToInt(transform.position.x) + logic.direction.x;
-                int y = Mathf.RoundToInt(transform.position.y) + logic.direction.y;
-                transform.position = new Vector3(x, y, 0);
+                var position = transform.position;
+                int x = Mathf.RoundToInt(position.x) + logic.direction.x;
+                int y = Mathf.RoundToInt(position.y) + logic.direction.y;
+                position = new Vector3(x, y, 0);
+                transform.position = position;
                 _timer = 0;
             }
         }
