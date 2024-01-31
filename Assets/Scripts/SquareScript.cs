@@ -5,26 +5,40 @@ using UnityEngine;
 
 public class SquareScript : MonoBehaviour
 {
+    public LogicScript logic;
     public Transform snake;
-    private SquareMetadata _squareMetadata;
+    private SnakeMetadata _snakeMetadata;
+    private float _timer;
+    private SnakeScript _snakeScript;
 
     // Start is called before the first frame update
     void Start()
     {
-        _squareMetadata = GetComponent<SquareMetadata>();
+        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
         snake = GameObject.FindGameObjectWithTag("Snake").GetComponent<Transform>();
+        _snakeScript = snake.GetComponent<SnakeScript>();
+        _snakeMetadata = snake.GetComponent<SnakeMetadata>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (_squareMetadata.index == 1)
+        // Debug.Log(_snakeMetadata.squares);
+        
+        if (_snakeMetadata.squares.IndexOf(gameObject) == 0)
         {
-            transform.position = snake.position;
-        }
-        else
-        {
-            // TODO: Follow the other blocks
+            _timer += Time.deltaTime;
+            if (_timer < _snakeMetadata.gameSpeed)
+            {
+                _timer += Time.deltaTime;
+            }
+            else
+            {
+                _snakeScript.UpdateAll();
+                int x = Mathf.RoundToInt(transform.position.x) + logic.direction.x;
+                int y = Mathf.RoundToInt(transform.position.y) + logic.direction.y;
+                transform.position = new Vector3(x, y, 0);
+                _timer = 0;
+            }
         }
     }
 }

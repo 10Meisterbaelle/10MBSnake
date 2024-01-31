@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 821590180864727835}
   - component: {fileID: 1112144229531848435}
   - component: {fileID: 6856762454168699286}
-  - component: {fileID: 7670122256922217971}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -29,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -98,16 +97,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1b9c878848694b07a6c6d91464cc380, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  logic: {fileID: 0}
   snake: {fileID: 0}
---- !u!114 &7670122256922217971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6592895421448254843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3abf6a390194d432d868d2fb47249a61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
