@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class SquareScript : MonoBehaviour
@@ -38,6 +39,13 @@ public class SquareScript : MonoBehaviour
                 transform.position = position;
                 _timer = 0;
             }
+        }
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == 6)
+        {
+            Debug.Log("The snake collided with itself");
         }
     }
 }

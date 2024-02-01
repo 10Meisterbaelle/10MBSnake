@@ -9,10 +9,10 @@ public class SnakeScript : MonoBehaviour
     void Start()
     {
         _snakeMetadata = GetComponent<SnakeMetadata>();
-        for (int i = 0; i < 3; i++)
-        {
-            GetComponent<SnakeMetadata>().squares.Add(SpawnSquare(0, 0));
-        }
+
+        GetComponent<SnakeMetadata>().squares.Add(SpawnSquare(0, 0));
+        GetComponent<SnakeMetadata>().squares.Add(SpawnSquare(-1, 0));
+        GetComponent<SnakeMetadata>().squares.Add(SpawnSquare(-2, 0));
     }
 
     // Update is called once per frame

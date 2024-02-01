@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class LogicScript : MonoBehaviour
 {
-    public Vector3Int direction;
+    public Vector3Int direction = Vector3Int.right;
 
     // Start is called before the first frame update
 
