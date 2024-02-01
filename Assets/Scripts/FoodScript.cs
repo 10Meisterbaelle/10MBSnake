@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class FoodScript : MonoBehaviour
 {
+    public GameObject snake;
     // Start is called before the first frame update
     void Start()
     {
-        
+        snake = GameObject.FindGameObjectWithTag("Snake");
     }
 
     // Update is called once per frame
@@ -21,6 +23,7 @@ public class FoodScript : MonoBehaviour
         {
             Destroy(gameObject);
             GameObject.FindGameObjectWithTag("FoodSpawner").GetComponent<FoodSpawnScript>().SpawnFood();
+            snake.GetComponent<SnakeMetadata>().squares.Add(snake.GetComponent<SnakeScript>().SpawnSquare(snake.GetComponent<SnakeMetadata>().squares.Last().transform.position.x, snake.GetComponent<SnakeMetadata>().squares.Last().transform.position.y));
         }
     }
 }

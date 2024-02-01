@@ -24,7 +24,7 @@ public class SnakeScript : MonoBehaviour
         }
     }
 
-    GameObject SpawnSquare(float x, float y)
+    public GameObject SpawnSquare(float x, float y)
     {
         GameObject spawnedSquare = Instantiate(square, new Vector3(x, y, 0), Quaternion.identity);
         return spawnedSquare;

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd861a22-3a35-4dbb-97d5-b512708c035f" name="Changes" comment="Added food destroying and respawning after collecting" />
+    <list default="true" id="dd861a22-3a35-4dbb-97d5-b512708c035f" name="Changes" comment="Changed food color to red">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FoodScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FoodScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SnakeScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SnakeScript.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +114,7 @@
       <workItem from="1706598338874" duration="1329000" />
       <workItem from="1706599685226" duration="3171000" />
       <workItem from="1706703416367" duration="1154000" />
-      <workItem from="1706779899243" duration="2019000" />
+      <workItem from="1706779899243" duration="2414000" />
     </task>
     <task id="LOCAL-00001" summary="Make camera background black">
       <option name="closed" value="true" />
@@ -201,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706781915812</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Changed food color to red">
+      <option name="closed" value="true" />
+      <created>1706781944588</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706781944588</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +245,7 @@
     <MESSAGE value="Added Food and Food Spawner (not functioning yet" />
     <MESSAGE value="Added basic food" />
     <MESSAGE value="Added food destroying and respawning after collecting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added food destroying and respawning after collecting" />
+    <MESSAGE value="Changed food color to red" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed food color to red" />
   </component>
 </project>
