@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class LogicScript : MonoBehaviour
 {
+    public GameObject gameOverScreen;
     public Vector3Int direction = Vector3Int.right;
 
     // Start is called before the first frame update
@@ -26,6 +27,11 @@ public class LogicScript : MonoBehaviour
         {
             direction = Vector3Int.left;
         }
+    }
+
+    public void GameOver()
+    {
+        gameOverScreen.SetActive(true);
     }
 
     public void ResetGame()

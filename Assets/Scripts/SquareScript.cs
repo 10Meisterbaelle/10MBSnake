@@ -45,7 +45,7 @@ public class SquareScript : MonoBehaviour
     {
         if (collision.gameObject.layer == 6)
         {
-            Debug.Log("The snake collided with itself");
+            logic.GameOver();
         }
     }
 }
