@@ -16,4 +16,9 @@ public class FoodSpawnScript : MonoBehaviour
     {
         
     }
+
+    public void SpawnFood()
+    {
+        Instantiate(food, new Vector3(Random.Range(0, 15), Random.Range(0, 14), 0), Quaternion.identity);
+    }
 }

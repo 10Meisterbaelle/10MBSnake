@@ -15,4 +15,12 @@ public class FoodScript : MonoBehaviour
     {
         
     }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == 6)
+        {
+            Destroy(gameObject);
+            GameObject.FindGameObjectWithTag("FoodSpawner").GetComponent<FoodSpawnScript>().SpawnFood();
+        }
+    }
 }
