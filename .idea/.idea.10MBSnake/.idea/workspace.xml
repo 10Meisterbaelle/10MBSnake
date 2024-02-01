@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd861a22-3a35-4dbb-97d5-b512708c035f" name="Changes" comment="Fixed a bug where the food was spawning inside the snake (this also fixes the bug that makes you die when collecting food)" />
+    <list default="true" id="dd861a22-3a35-4dbb-97d5-b512708c035f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +14,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodSpawnScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodSpawnScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodSpawnScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodSpawnScript.cs" root0="SKIP_HIGHLIGHTING" />
@@ -311,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706791158947</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Reformatted and cleaned up all the code">
+      <option name="closed" value="true" />
+      <created>1706791638573</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1706791638573</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +366,7 @@
     <MESSAGE value="Added walls (without function)" />
     <MESSAGE value="Made walls functioning" />
     <MESSAGE value="Fixed a bug where the food was spawning inside the snake (this also fixes the bug that makes you die when collecting food)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug where the food was spawning inside the snake (this also fixes the bug that makes you die when collecting food)" />
+    <MESSAGE value="Reformatted and cleaned up all the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformatted and cleaned up all the code" />
   </component>
 </project>

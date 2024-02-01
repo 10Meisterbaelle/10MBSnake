@@ -5,7 +5,7 @@ public class SquareScript : MonoBehaviour
     public LogicScript logic;
     public Transform snake;
     private SnakeScript _snakeScript;
-    private float _timer;
+    private float _timer; // Counts the time between moves
 
     // Start is called before the first frame update
     private void Start()
@@ -20,11 +20,11 @@ public class SquareScript : MonoBehaviour
         if (logic.squares.IndexOf(gameObject) == 0)
         {
             _timer += Time.deltaTime;
-            if (_timer < logic.gameSpeed)
+            if (_timer < logic.gameSpeed) // Change gameSpeed in logic to increase the speed of the game
             {
-                _timer += Time.deltaTime;
+                _timer += Time.deltaTime; // This increases the timer
             }
-            else
+            else // This is executed if the timer has expired
             {
                 _snakeScript.UpdateAll();
                 var position = transform.position;

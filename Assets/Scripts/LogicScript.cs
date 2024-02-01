@@ -7,14 +7,15 @@ public class LogicScript : MonoBehaviour
     public GameObject gameOverScreen;
     public GameObject snake;
     public Vector3Int direction = Vector3Int.right;
-    public List<GameObject> squares = new();
-    public float gameSpeed = 0.25f;
+    public List<GameObject> squares = new(); // Stores all of the squares the snake is made up of
+    public float gameSpeed = 0.25f; // Changes the speed of the snake
 
     // Start is called before the first frame update
 
     // Update is called once per frame
     private void Update()
     {
+        // This is responsible for detecting key inputs
         if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) && direction != Vector3Int.down)
             direction = Vector3Int.up;
         else if ((Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)) && direction != Vector3Int.left)

@@ -17,7 +17,7 @@ public class SnakeScript : MonoBehaviour
     // Update is called once per frame
     public void UpdateAll()
     {
-        for (var i = logic.squares.Count - 1; i > 0; i--)
+        for (var i = logic.squares.Count - 1; i > 0; i--) // Moves the squares to the next position
             logic.squares[i].transform.position = logic.squares[i - 1].transform.position;
     }
 

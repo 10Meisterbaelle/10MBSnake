@@ -9,7 +9,7 @@ public class FoodSpawnScript : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        Instantiate(food, new Vector3(Random.Range(0, 15), Random.Range(0, 14), 0), Quaternion.identity);
+        Instantiate(food, new Vector3(Random.Range(0, 15), Random.Range(0, 14), 0), Quaternion.identity); // Instantiates the food prefab at a random position
     }
 
     // Update is called once per frame
@@ -21,7 +21,7 @@ public class FoodSpawnScript : MonoBehaviour
     {
         var foodPosition = new Vector3(Random.Range(0, 15), Random.Range(0, 14), 0);
         foreach (var square in logic.squares)
-            if (square.transform.position == foodPosition)
+            if (square.transform.position == foodPosition) // This checks whether the food is spwning inside the snake and cancels the function
             {
                 SpawnFood();
                 return;

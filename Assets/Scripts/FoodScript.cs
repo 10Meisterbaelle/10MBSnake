@@ -23,7 +23,7 @@ public class FoodScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == 6)
+        if (collision.gameObject.layer == 6) // if the food is touched by the snake
         {
             Destroy(gameObject);
             GameObject.FindGameObjectWithTag("FoodSpawner").GetComponent<FoodSpawnScript>().SpawnFood();
