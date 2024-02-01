@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd861a22-3a35-4dbb-97d5-b512708c035f" name="Changes" comment="Made walls functioning">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LogicScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LogicScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.10MBSnake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.10MBSnake/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FoodSpawnScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FoodSpawnScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,21 +17,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Prefabs/Food.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Prefabs/Food.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Prefabs/Square.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/LogicScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/LogicScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/LogicScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/SnakeScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodSpawnScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodSpawnScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodSpawnScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SnakeScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/SquareScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Test/Assets/BirdScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Test/Assets/LogicScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Test/Assets/PipeMiddleScript.cs" root0="SKIP_HIGHLIGHTING" />

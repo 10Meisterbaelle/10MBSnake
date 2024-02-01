@@ -1227,6 +1227,7 @@ MonoBehaviour:
   snake: {fileID: 1714394631}
   direction: {x: 1, y: 0, z: 0}
   squares: []
+  gameSpeed: 0.25
 --- !u!4 &1809916328
 Transform:
   m_ObjectHideFlags: 0
@@ -1364,6 +1365,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   food: {fileID: 2471041177043061832, guid: a7e62672d1bd44460a76d07c355880b3, type: 3}
+  snake: {fileID: 1714394631}
+  logic: {fileID: 1809916327}
 --- !u!1 &1921352522
 GameObject:
   m_ObjectHideFlags: 0
