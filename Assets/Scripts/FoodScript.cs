@@ -24,6 +24,10 @@ public class FoodScript : MonoBehaviour
             GameObject.FindGameObjectWithTag("FoodSpawner").GetComponent<FoodSpawnScript>().SpawnFood();
             logic.squares.Add(snake.GetComponent<SnakeScript>().SpawnSquare(69, 420));
             scoreCounter.text = (logic.squares.Count - 3).ToString();
+            if ((logic.squares.Count - 3) % 10 == 0) // This checks whether the amount of points are divisible by 10
+            {
+                logic.gameSpeed /= 2; // Doubles the speed every time the counter reaches a multiple of 10
+            }
         }
     }
 }

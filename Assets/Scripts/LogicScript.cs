@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,9 +9,13 @@ public class LogicScript : MonoBehaviour
     public GameObject snake;
     public Vector3Int direction = Vector3Int.right;
     public List<GameObject> squares = new(); // Stores all of the squares the snake is made up of
-    public float gameSpeed = 0.25f; // Changes the speed of the snake
+    public float gameSpeed; // This variable determines the speed of the snake, in amount of seconds per block
 
     // Start is called before the first frame update
+    private void Start()
+    {
+        gameSpeed = 0.5f; // Game speed on game start
+    }
 
     // Update is called once per frame
     private void Update()
