@@ -13,15 +13,12 @@ public class FoodSpawnScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Update()
-    {
-    }
 
     public void SpawnFood()
     {
         var foodPosition = new Vector3(Random.Range(0, 15), Random.Range(0, 14), 0);
         foreach (var square in logic.squares)
-            if (square.transform.position == foodPosition) // This checks whether the food is spwning inside the snake and cancels the function
+            if (square.transform.position == foodPosition) // This checks whether the food is spawning inside the snake and cancels the function
             {
                 SpawnFood();
                 return;
