@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd861a22-3a35-4dbb-97d5-b512708c035f" name="Changes" comment="Made walls functioning">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.10MBSnake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.10MBSnake/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FoodSpawnScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FoodSpawnScript.cs" afterDir="false" />
-    </list>
+    <list default="true" id="dd861a22-3a35-4dbb-97d5-b512708c035f" name="Changes" comment="Fixed a bug where the food was spawning inside the snake (this also fixes the bug that makes you die when collecting food)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +14,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodSpawnScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodSpawnScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodSpawnScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodSpawnScript.cs" root0="SKIP_HIGHLIGHTING" />
@@ -305,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706787806484</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Fixed a bug where the food was spawning inside the snake (this also fixes the bug that makes you die when collecting food)">
+      <option name="closed" value="true" />
+      <created>1706791158947</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1706791158947</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,6 +355,7 @@
     <MESSAGE value="Added proper game over screen" />
     <MESSAGE value="Added walls (without function)" />
     <MESSAGE value="Made walls functioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made walls functioning" />
+    <MESSAGE value="Fixed a bug where the food was spawning inside the snake (this also fixes the bug that makes you die when collecting food)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug where the food was spawning inside the snake (this also fixes the bug that makes you die when collecting food)" />
   </component>
 </project>

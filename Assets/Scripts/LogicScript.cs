@@ -21,17 +21,15 @@ public class LogicScript : MonoBehaviour
             direction = Vector3Int.right;
         else if ((Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S)) && direction != Vector3Int.up)
             direction = Vector3Int.down;
-        else if ((Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A)) && direction != Vector3Int.right) direction = Vector3Int.left;
+        else if ((Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A)) && direction != Vector3Int.right)
+            direction = Vector3Int.left;
     }
 
     public void GameOver()
     {
         gameOverScreen.SetActive(true);
         Destroy(snake);
-        foreach (var square in squares)
-        {
-            Destroy(square);
-        }
+        foreach (var square in squares) Destroy(square);
         Destroy(GameObject.FindGameObjectWithTag("Food"));
     }
 

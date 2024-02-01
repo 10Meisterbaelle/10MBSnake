@@ -19,15 +19,14 @@ public class FoodSpawnScript : MonoBehaviour
 
     public void SpawnFood()
     {
-        Vector3 foodPosition = new Vector3(Random.Range(0, 15), Random.Range(0, 14), 0);
+        var foodPosition = new Vector3(Random.Range(0, 15), Random.Range(0, 14), 0);
         foreach (var square in logic.squares)
-        {
             if (square.transform.position == foodPosition)
             {
                 SpawnFood();
                 return;
             }
-        }
+
         Instantiate(food, foodPosition, Quaternion.identity);
     }
 }
