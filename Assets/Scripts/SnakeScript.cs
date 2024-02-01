@@ -3,30 +3,27 @@ using UnityEngine;
 public class SnakeScript : MonoBehaviour
 {
     public GameObject square;
-    private SnakeMetadata _snakeMetadata;
+    public LogicScript logic;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        _snakeMetadata = GetComponent<SnakeMetadata>();
-
-        GetComponent<SnakeMetadata>().squares.Add(SpawnSquare(0, 0));
-        GetComponent<SnakeMetadata>().squares.Add(SpawnSquare(-1, 0));
-        GetComponent<SnakeMetadata>().squares.Add(SpawnSquare(-2, 0));
+        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
+        logic.squares.Add(SpawnSquare(0, 0));
+        logic.squares.Add(SpawnSquare(-1, 0));
+        logic.squares.Add(SpawnSquare(-2, 0));
     }
 
     // Update is called once per frame
     public void UpdateAll()
     {
-        for (int i = _snakeMetadata.squares.Count - 1; i > 0; i--)
-        {
-            _snakeMetadata.squares[i].transform.position = _snakeMetadata.squares[i - 1].transform.position;
-        }
+        for (var i = logic.squares.Count - 1; i > 0; i--)
+            logic.squares[i].transform.position = logic.squares[i - 1].transform.position;
     }
 
     public GameObject SpawnSquare(float x, float y)
     {
-        GameObject spawnedSquare = Instantiate(square, new Vector3(x, y, 0), Quaternion.identity);
+        var spawnedSquare = Instantiate(square, new Vector3(x, y, 0), Quaternion.identity);
         return spawnedSquare;
     }
 }

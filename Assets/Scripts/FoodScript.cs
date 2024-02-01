@@ -1,29 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class FoodScript : MonoBehaviour
 {
     public GameObject snake;
+
+    public LogicScript logic;
+
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         snake = GameObject.FindGameObjectWithTag("Snake");
+        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
     }
-    void OnTriggerEnter2D(Collider2D collision)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == 6)
         {
             Destroy(gameObject);
             GameObject.FindGameObjectWithTag("FoodSpawner").GetComponent<FoodSpawnScript>().SpawnFood();
-            snake.GetComponent<SnakeMetadata>().squares.Add(snake.GetComponent<SnakeScript>().SpawnSquare(69, 420));
+            logic.squares.Add(snake.GetComponent<SnakeScript>().SpawnSquare(69, 420));
         }
     }
 }
