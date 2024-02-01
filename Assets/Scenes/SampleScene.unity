@@ -808,6 +808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d5749f49980f416491204a8fbf6a004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverScreen: {fileID: 1988255723}
   direction: {x: 1, y: 0, z: 0}
 --- !u!4 &1809916328
 Transform:
@@ -884,7 +885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1988255724
 Transform:
   m_ObjectHideFlags: 0
