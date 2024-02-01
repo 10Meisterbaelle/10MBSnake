@@ -8,7 +8,7 @@ public class LogicScript : MonoBehaviour
     public GameObject snake;
     public Vector3Int direction = Vector3Int.right;
     public List<GameObject> squares = new();
-    public float gameSpeed = 0.5f;
+    public float gameSpeed = 0.25f;
 
     // Start is called before the first frame update
 

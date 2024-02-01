@@ -1227,7 +1227,6 @@ MonoBehaviour:
   snake: {fileID: 1714394631}
   direction: {x: 1, y: 0, z: 0}
   squares: []
-  gameSpeed: 0.5
 --- !u!4 &1809916328
 Transform:
   m_ObjectHideFlags: 0
