@@ -8,6 +8,7 @@ TagManager:
   - Snake
   - FoodSpawner
   - ScoreCounter
+  - Food
   layers:
   - Default
   - TransparentFX

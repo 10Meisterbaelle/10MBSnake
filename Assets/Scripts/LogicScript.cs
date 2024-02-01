@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class LogicScript : MonoBehaviour
 {
     public GameObject gameOverScreen;
+    public GameObject snake;
     public Vector3Int direction = Vector3Int.right;
     public List<GameObject> squares = new();
     public float gameSpeed = 0.5f;
@@ -26,6 +27,12 @@ public class LogicScript : MonoBehaviour
     public void GameOver()
     {
         gameOverScreen.SetActive(true);
+        Destroy(snake);
+        foreach (var square in squares)
+        {
+            Destroy(square);
+        }
+        Destroy(GameObject.FindGameObjectWithTag("Food"));
     }
 
     public void ResetGame()

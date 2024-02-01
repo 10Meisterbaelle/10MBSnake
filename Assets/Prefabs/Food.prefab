@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3905822087590447934}
   m_Layer: 0
   m_Name: Food
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,3 +143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffb22816b06574fc58aca73ded2c1e63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snake: {fileID: 0}
+  logic: {fileID: 0}
+  scoreCounter: {fileID: 0}

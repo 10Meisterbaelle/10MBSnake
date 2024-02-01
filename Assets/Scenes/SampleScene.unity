@@ -1082,8 +1082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c786114f001a4db2b29caed303761b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  squares: []
-  gameSpeed: 0.5
 --- !u!1 &1809916326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,6 +1112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverScreen: {fileID: 1988255723}
+  snake: {fileID: 1714394631}
   direction: {x: 1, y: 0, z: 0}
   squares: []
   gameSpeed: 0.5
