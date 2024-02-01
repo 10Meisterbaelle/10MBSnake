@@ -27,7 +27,7 @@ public class FoodScript : MonoBehaviour
         {
             Destroy(gameObject);
             GameObject.FindGameObjectWithTag("FoodSpawner").GetComponent<FoodSpawnScript>().SpawnFood();
-            logic.squares.Add(snake.GetComponent<SnakeScript>().SpawnSquare(69, 420));
+            logic.squares.Add(snake.GetComponent<SnakeScript>().SpawnSquare(Random.Range(20, 1000000), Random.Range(20, 1000000)));
             scoreCounter.text = (logic.squares.Count - 3).ToString();
         }
     }
