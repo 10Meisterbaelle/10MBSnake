@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd861a22-3a35-4dbb-97d5-b512708c035f" name="Changes" comment="Added score counter">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LogicScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LogicScript.cs" afterDir="false" />
+    <list default="true" id="dd861a22-3a35-4dbb-97d5-b512708c035f" name="Changes" comment="Added walls (without function)">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.10MBSnake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.10MBSnake/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +17,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Prefabs/Food.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Prefabs/Food.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Prefabs/Square.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/felix/Development/C#/Unity/10MBSnake/Assets/Scripts/FoodScript.cs" root0="SKIP_HIGHLIGHTING" />
@@ -127,7 +128,7 @@
       <workItem from="1706598338874" duration="1329000" />
       <workItem from="1706599685226" duration="3171000" />
       <workItem from="1706703416367" duration="1154000" />
-      <workItem from="1706779899243" duration="6459000" />
+      <workItem from="1706779899243" duration="7182000" />
     </task>
     <task id="LOCAL-00001" summary="Make camera background black">
       <option name="closed" value="true" />
@@ -289,7 +290,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706786068359</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added proper game over screen">
+      <option name="closed" value="true" />
+      <created>1706786536789</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1706786536789</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added walls (without function)">
+      <option name="closed" value="true" />
+      <created>1706787032643</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1706787032643</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +347,8 @@
     <MESSAGE value="Added basic game over" />
     <MESSAGE value="A bunch of code optimizations" />
     <MESSAGE value="Added score counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added score counter" />
+    <MESSAGE value="Added proper game over screen" />
+    <MESSAGE value="Added walls (without function)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added walls (without function)" />
   </component>
 </project>
