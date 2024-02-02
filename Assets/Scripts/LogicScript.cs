@@ -9,12 +9,17 @@ public class LogicScript : MonoBehaviour
     public GameObject snake;
     public Vector3Int direction = Vector3Int.right;
     public List<GameObject> squares = new(); // Stores all of the squares the snake is made up of
-    public float gameSpeed; // This variable determines the speed of the snake, in amount of seconds per block
+    public float gameSpeed; // This variable determines the speed of the snake on start of the game
+    public float pointsToMultiply; // This variable determines the points needed for speed multiplication
+    public float speedMultiplier; // This variable determines the multiplier of the speed
 
     // Start is called before the first frame update
     private void Start()
     {
-        gameSpeed = 0.5f; // Game speed on game start
+        // Change the variables here
+        gameSpeed = 0.3f;
+        pointsToMultiply = 5;
+        speedMultiplier = 1.05f;
     }
 
     // Update is called once per frame
