@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// This is the logic script. It contains the game logic
 public class LogicScript : MonoBehaviour
 {
     public GameObject gameOverScreen;
