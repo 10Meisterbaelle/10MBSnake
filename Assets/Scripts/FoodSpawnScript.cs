@@ -15,7 +15,7 @@ public class FoodSpawnScript : MonoBehaviour
 
     public void SpawnFood()
     {
-        var foodPosition = new Vector3(Random.Range(0, 15), Random.Range(0, 14), 0);
+        var foodPosition = new Vector3(Random.Range(-14, 14), Random.Range(-14, 14), 0);
         foreach (var square in logic.squares)
             if (square.transform.position ==
                 foodPosition) // This checks whether the food is spawning inside the snake and cancels the function
