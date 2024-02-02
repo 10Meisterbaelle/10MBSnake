@@ -9,6 +9,7 @@ public class SnakeScript : MonoBehaviour
     private void Start()
     {
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
+        // Spawns the three starting snake squares
         logic.squares.Add(SpawnSquare(0, 0));
         logic.squares.Add(SpawnSquare(-1, 0));
         logic.squares.Add(SpawnSquare(-2, 0));
@@ -21,7 +22,7 @@ public class SnakeScript : MonoBehaviour
             logic.squares[i].transform.position = logic.squares[i - 1].transform.position;
     }
 
-    public GameObject SpawnSquare(float x, float y)
+    public GameObject SpawnSquare(float x, float y) // Spawns the squares the snake is made of
     {
         var spawnedSquare = Instantiate(square, new Vector3(x, y, 0), Quaternion.identity);
         return spawnedSquare;
